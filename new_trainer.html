@@ -5,6 +5,14 @@
         <title>Become the Newest Pokemon Trainer</title>
     </head>
     <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gym_leader.html">Meet a Gym Leader</a></li>
+                <li><a href="warnings.html">What to Watch Out For</a></li>
+            </ul>
+        </div>
+
         <form>
             <fieldset>
                 <legend>New Trainer Form</legend>
@@ -14,35 +22,43 @@
                     <input type="text">
                 </div>
 
+                <br/>
                 <div>
                     <label>Hometown</label>
                     <input type="text">
                 </div>
-
+                <br/>
                 <div>
-                    <label>Choose Your Starter Pokemon</label>
-                    
-                    <div>
-                        <input type="radio">
-                        <label>Bulbasaur</label>
-                    </div>
+                    <label>Choose One Starter Pokemon:</label>
 
-                    <div>
-                        <input type="radio">
-                        <label>Charmander</label>
-                    </div>
-
-                    <div>
-                        <input type="radio">
-                        <label>Squirtle</label>
+                    <div class="starter-pokemon">
+                        <div class="starter-pokemon-option">
+                            <img src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/500px-0001Bulbasaur.png" width="200" height="200">
+                            <input type="radio">
+                            <label>Bulbasaur</label>
+                        </div>
+    
+                        <div class="starter-pokemon-option">
+                            <img src="https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/500px-0004Charmander.png" width="200" height="200">
+                            <input type="radio">
+                            <label>Charmander</label>
+                        </div>
+    
+                        <div class="starter-pokemon-option">
+                            <img src="https://archives.bulbagarden.net/media/upload/thumb/5/54/0007Squirtle.png/500px-0007Squirtle.png" width="200" height="200">
+                            <input type="radio">
+                            <label>Squirtle</label>
+                        </div>
                     </div>
                 </div>
+
+                <br/>
 
                 <div>
                     <label>Are you going to be battling in Gyms or competing in Contests? Why?</label>
                     <textarea></textarea>
                 </div>
-                            
+                <br/>     
                 <div class="submit">
                     <button type="submit">Submit</button>
                 </div>

@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar ul li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar ul li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.brock-team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.gym-pokemon {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border: 5px solid beige;
+    padding: 5px;
+    transition: background-color 2s, transform 2s;
+}
+
+.gym-pokemon:hover {
+    background-color: burlywood;
+    transform: rotateY(360deg);
+}
+
+.gym-pokemon label {
+    border: 5px solid tan;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(223, 206, 184);
+    font-family: sans-serif;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100px;
+}
+
+fieldset {
+    grid-column: 2/span 1;
+}
+
+.starter-pokemon {
+    display: flex;
+}
